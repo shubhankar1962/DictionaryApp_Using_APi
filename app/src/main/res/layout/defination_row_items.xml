@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/search_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/part_of_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="noun"
+        android:textSize="25dp"
+        android:textColor="@color/my_primary"
+        />
+    <TextView
+        android:id="@+id/definationId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:textSize="18sp"
+        android:text="defination"/>
+
+
+    <TextView
+        android:id="@+id/synonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="synonyms"
+        android:textSize="25sp"
+        android:textColor="@color/my_primary"
+        />
+    <TextView
+        android:id="@+id/synonymswords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:text="synonyms words"/>
+
+    <TextView
+        android:id="@+id/antonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="antonyms"
+        android:textSize="25sp"
+        android:textColor="@color/my_primary"
+        />
+    <TextView
+        android:id="@+id/antonymswords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:text="antonyms words"/>
+
+</LinearLayout>
